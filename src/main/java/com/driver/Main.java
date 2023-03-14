@@ -1,5 +1,17 @@
 package com.driver;
 
-public class Main {
+
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        RWOnly r = new RWOnly();
+        r.setName("Dhiraj Rajguru Encapsulation");
+        System.out.println(r.getName());
+
+
+    }
   
 }
